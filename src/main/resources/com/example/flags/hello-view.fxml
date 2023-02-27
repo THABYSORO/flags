@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="434.0" prefWidth="626.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.flags.HelloController">
+   <children>
+      <Label layoutX="6.0" layoutY="8.0" prefHeight="47.0" prefWidth="611.0" text="                                              COUNTRY FLAGS" textAlignment="JUSTIFY" textOverrun="CLIP">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="rectangleA" arcHeight="5.0" arcWidth="5.0" fill="#df0808" height="90.0" layoutX="37.0" layoutY="53.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="538.0" />
+      <Button fx:id="Les" layoutX="27.0" layoutY="359.0" mnemonicParsing="false" onAction="#LesothoFlag" prefHeight="38.0" prefWidth="83.0" text="Lesotho" />
+      <Button fx:id="Yem" layoutX="126.0" layoutY="359.0" mnemonicParsing="false" onAction="#YemenFlag" prefHeight="38.0" prefWidth="83.0" text="Yemen" />
+      <Button fx:id="Ger" layoutX="222.0" layoutY="360.0" mnemonicParsing="false" onAction="#GermanyFlag" prefHeight="38.0" prefWidth="90.0" text="Germany" />
+      <Button fx:id="Hun" layoutX="325.0" layoutY="360.0" mnemonicParsing="false" onAction="#HungaryFlag" prefHeight="38.0" prefWidth="83.0" text="Hungary" />
+      <Button fx:id="Aus" layoutX="423.0" layoutY="360.0" mnemonicParsing="false" onAction="#AustriaFlag" prefHeight="38.0" prefWidth="83.0" text="Austria" />
+      <Button fx:id="clear" layoutX="521.0" layoutY="360.0" mnemonicParsing="false" onAction="#ClearStage" prefHeight="38.0" prefWidth="83.0" text="Clear" />
+      <Rectangle fx:id="rectangleB" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="90.0" layoutX="37.0" layoutY="143.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="538.0" />
+      <Rectangle fx:id="rectangleC" arcHeight="5.0" arcWidth="5.0" fill="#df0808" height="90.0" layoutX="37.0" layoutY="233.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="538.0" />
+   </children>
+</AnchorPane>
